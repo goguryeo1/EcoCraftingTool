@@ -332,5 +332,41 @@ export let skills: Skill[] =
       'imageFile': 'skill-icons-sprite.png',
       'xPos': 4,
       'yPos': 2
+    },
+    //======== Mod Added ========//
+    {
+      'name': 'Mixology',
+      'nameID': 'MixologySkill',
+      'basicUpgrade': false,
+      'advancedUpgrade': true,
+      'modernUpgrade': false,
+      'lavishWorkspace': false
+    },
+    {
+      'name': 'Fishing Unplugged',
+      'nameID': 'FishingUnpluggedSkill',
+      'basicUpgrade': true,
+      'advancedUpgrade': false,
+      'modernUpgrade': false,
+      'lavishWorkspace': true
+    },
+    {
+      'name': 'Ranching',
+      'nameID': 'RanchingSkill',
+      'basicUpgrade': false,
+      'advancedUpgrade': false,
+      'modernUpgrade': false,
+      'lavishWorkspace': false
     }
+    /* ======== Sample ========
+    ,
+    {
+      'name': '',
+      'nameID': 'Skill',
+      'basicUpgrade': true,
+      'advancedUpgrade': false,
+      'modernUpgrade': true,
+      'lavishWorkspace': true
+    }
+    */
   ];

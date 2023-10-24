@@ -21102,4 +21102,3982 @@ export let standardRecipes: Recipe[] =
         }
       ]
     }
+    //======== Mod Added ========//
+    ,
+    {
+      'name': 'Blender',
+      'nameID': 'Blender',
+      'skill': getSkillByNameID('BasicEngineeringSkill'),
+      'level': 2,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('WainwrightTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CelluloseFiberItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NailItem'),
+          'quantity': 10,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BlenderItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Almond Milk',
+      'nameID': 'AlmondMilkItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AcornItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('AlmondMilkItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Beet Juice',
+      'nameID': 'BeetJuiceItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BeetItem'),
+          'quantity': 6,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BeetJuiceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Coffee Powder',
+      'nameID': 'CoffeePowderItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('Seeds'),
+          'quantity': 30,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CoffeePowderItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Corn Milk',
+      'nameID': 'CornMilkItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 5,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Giant Cactus Fruit Paste',
+      'nameID': 'GiantCactusFruitPasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GiantCactusFruitItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GiantCactusFruitPasteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Granulated Coffee',
+      'nameID': 'GranulatedCoffeeItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 60,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AcornItem'),
+          'quantity': 10,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GranulatedCoffeeItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Huckleberry Paste',
+      'nameID': 'HuckleberryPasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 60,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('HuckleberriesItem'),
+          'quantity': 12,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('HuckleberryPasteItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Papaya Paste',
+      'nameID': 'PapayaPasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PapayaItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PapayaPasteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pineapple Juice',
+      'nameID': 'PineappleJuiceItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PineappleItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PineappleJuiceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pineapple Paste',
+      'nameID': 'PineapplePasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PineappleItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PineapplePasteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Prickly Pear Paste',
+      'nameID': 'PricklyPearPasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PricklyPearFruitItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PricklyPearPasteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pumpkin Juice',
+      'nameID': 'PumpkinJuiceItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PumpkinItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PumpkinJuiceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pumpkin Paste',
+      'nameID': 'PumpkinPasteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PumpkinItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PumpkinPasteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Soy Milk',
+      'nameID': 'SoyMilkItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BeansItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SoyMilkItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Teabag',
+      'nameID': 'TeabagItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CamasBulbItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('WheatItem'),
+          'quantity': 6,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Tomato Juice',
+      'nameID': 'TomatoJuiceItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 8,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TomatoJuiceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Tree Sap Juice',
+      'nameID': 'TreeSapJuiceItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 1,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('WoodPulpItem'),
+          'quantity': 25,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Drinks Machine',
+      'nameID': 'DrinksMachineItem',
+      'skill': getSkillByNameID('BasicEngineeringSkill'),
+      'level': 2,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('WainwrightTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NailItem'),
+          'quantity': 10,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('DrinksMachineItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Berry Burst',
+      'nameID': 'BerryBurstItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PineapplePasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HuckleberryPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BerryBurstItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Breakfast On The Go',
+      'nameID': 'BreakfastOnTheGoItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('WheatItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoJuiceItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PumpkinPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BreakfastOnTheGoItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Bubble Tea',
+      'nameID': 'BubbleTeaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 6,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SoyMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BubbleTeaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Cappuccino',
+      'nameID': 'CappuccinoItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SoyMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CoffeePowderItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GranulatedCoffeeItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CappuccinoItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Coffee',
+      'nameID': 'CoffeeItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GranulatedCoffeeItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CoffeeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Corn Supreme',
+      'nameID': 'CornSupremeItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CornSupremeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Espresso Shot',
+      'nameID': 'EspressoShotItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CoffeePowderItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('EspressoShotItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Green Goddess',
+      'nameID': 'GreenGoddessItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PricklyPearPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GreenGoddessItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Herbal Tea',
+      'nameID': 'HerbalTeaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('HerbalTeaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Huckleberry Crush',
+      'nameID': 'HuckleberryCrushItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('HuckleberryPasteItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('HuckleberryCrushItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Latte',
+      'nameID': 'LatteItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AlmondMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CoffeePowderItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GranulatedCoffeeItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('LatteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mixed Fruit',
+      'nameID': 'MixedFruitItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PumpkinPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GiantCactusFruitPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MixedFruitItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mixology Advanced Upgrade',
+      'nameID': 'MixologyAdvancedUpgradeItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 7,
+      'labor': 5000,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AdvancedUpgradeLvl4Item'),
+          'quantity': 2,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MixologyAdvancedUpgradeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mocha',
+      'nameID': 'MochaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AlmondMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TreeSapJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GranulatedCoffeeItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MochaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Papaya Paradise',
+      'nameID': 'PapayaParadiseItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 3,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PapayaPasteItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CoffeePowderItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PapayaParadiseItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Spring Light Tea',
+      'nameID': 'SpringLightTeaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 5,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PumpkinJuiceItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PricklyPearPasteItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SpringLightTeaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Taro Milk Tea',
+      'nameID': 'TaroMilkTeaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 6,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SoyMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TaroRootItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TaroMilkTeaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Thai Milk Tea',
+      'nameID': 'ThaiMilkTeaItem',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': 6,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('DrinksMachineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('AlmondMilkItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TeabagItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HuckleberriesItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('ThaiMilkTeaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Fishing Table ========
+    ,
+    {
+      'name': 'Bass Fillet',
+      'nameID': 'BassFilletItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BassItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BassFilletItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Breadcrumbs',
+      'nameID': 'BreadcrumbsItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BreadItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BreadcrumbsItem'),
+          'quantity': 3,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Can Of Tuna',
+      'nameID': 'CanOfTunaItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 3,
+      'labor': 30,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TunaFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CanOfTunaItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Crab Meat',
+      'nameID': 'CrabMeatItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 1,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CrabCarcassItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CrabMeatItem'),
+          'quantity': 3,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Crab Sticks',
+      'nameID': 'CrabSticksItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 2,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CrabMeatItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CrabSticksItem'),
+          'quantity': 3,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Fillet',
+      'nameID': 'FishFilletItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 1,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('MediumFish'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Scraps',
+      'nameID': 'FishScrapsItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 2,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('Fish'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishScrapsItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Stick',
+      'nameID': 'FishStickItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 1,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishStickItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salmon Fillet',
+      'nameID': 'SalmonFilletItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SalmonItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SalmonFilletItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salmon Patty',
+      'nameID': 'SalmonPattyItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 5,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SalmonItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SalmonPattyItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Shark Steak',
+      'nameID': 'SharkSteakItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 6,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BlueSharkItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SharkSteakItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Tinned Saldines',
+      'nameID': 'TinnedSaldinesItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 6,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PacificSardineItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TinnedSaldinesItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Tuna Fillet',
+      'nameID': 'TunaFilletItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('FisheryObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TunaItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TunaFilletItem'),
+          'quantity': 2,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Fish Farm ========
+    ,
+    {
+      'name': 'Caviar',
+      'nameID': 'CaviarItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 6,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishEggItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('InfusedFishOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CaviarItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Egg',
+      'nameID': 'FishEggItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 6,
+      'labor': 120,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PacificSardineItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishEggItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fishing Unplugged Upgrade',
+      'nameID': 'FishingUnpluggedUpgradeItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 7,
+      'labor': 3000,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BasicUpgradeLvl4Item'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishingUnpluggedUpgradeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Infused Fish Oil',
+      'nameID': 'InfusedFishOilItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 6,
+      'labor': 80,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HuckleberriesItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('InfusedFishOilItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Kelp Nori',
+      'nameID': 'KelpNoriItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 2,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('KelpItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('KelpNoriItem'),
+          'quantity': 3,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Marine Oil',
+      'nameID': 'MarineOilItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 1,
+      'labor': 60,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('RawFishItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CrabMeatItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Omega-3 Capsule',
+      'nameID': 'OmegaCapsuleItem',
+      'skill': getSkillByNameID('FishingUnpluggedSkill'),
+      'level': 5,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('FishFarmObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishScrapsItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('OmegaCapsuleItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Campfire ========
+    ,
+    {
+      'name': 'Bass Stew',
+      'nameID': 'BassStewItem',
+      'skill': getSkillByNameID('CampfireCookingSkill'),
+      'level': 2,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CampfireObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BassFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BassStewItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Charred Crab Sticks',
+      'nameID': 'CharredCrabSticksItem',
+      'skill': getSkillByNameID('CampfireCookingSkill'),
+      'level': 2,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CampfireObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CrabMeatItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CrabSticksItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CharredCrabSticksItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fried Salmon',
+      'nameID': 'FriedSalmonItem',
+      'skill': getSkillByNameID('CampfireCookingSkill'),
+      'level': 1,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CampfireObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SalmonFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FriedSalmonItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Urchin Soup',
+      'nameID': 'UrchinSoupItem',
+      'skill': getSkillByNameID('CampfireCookingSkill'),
+      'level': 1,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CampfireObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('UrchinItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('UrchinSoupItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Cast Iron Stove ========
+    ,
+    {
+      'name': 'Beer',
+      'nameID': 'BeerItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('WheatItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('YeastItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CerealGermItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BeerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Sun Cheese (Milk)',
+      'nameID': 'SunCheeseMilk',
+      'skill': getSkillByNameID('RanchingSkill'),
+      'level': 5,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('MilkItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ClothItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SunCheeseItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        },
+        {
+          'item': getItemByNameID('ClothItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': false
+        }
+      ]
+    },
+    {
+      'name': 'Dango',
+      'nameID': 'DangoItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('RiceFlourItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeanPasteItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('DangoItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Fingers',
+      'nameID': 'FishFingersItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BreadcrumbsItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FishStickItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishFingersItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Taco 1',
+      'nameID': 'FishTaco1Item',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SalmonFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishTaco1Item'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Taco 2',
+      'nameID': 'FishTaco2Item',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Greens'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredFishItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishTaco2Item'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fried Oysters',
+      'nameID': 'FriedOystersItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('ClamItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FriedOystersItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Meaty Spaghetti',
+      'nameID': 'MeatySpaghettiItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 50,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CharredTomatoItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Greens'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('RawSausageItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MeatySpaghettiItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pancakes',
+      'nameID': 'PancakesItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 30,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HuckleberriesItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PancakesItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Popcorn',
+      'nameID': 'PopcornItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PopcornItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pupusas',
+      'nameID': 'PupusasItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeansItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SunCheeseItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PupusasItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Shrimp Tempura',
+      'nameID': 'ShrimpTempuraItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 50,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredFishItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('ShrimpTempuraItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Spaghetti',
+      'nameID': 'SpaghettiItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CharredTomatoItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Greens'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SpaghettiItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Wine',
+      'nameID': 'WineItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CastIronStoveObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fruit'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('WineItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Bakery Oven ========
+    ,
+    {
+      'name': 'BBQ Rib',
+      'nameID': 'BBQRibItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 4,
+      'labor': 50,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CharredTomatoItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PreparedMeatItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BBQRibItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Baked Salmon 1',
+      'nameID': 'BakedSalmon1Item',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SalmonFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BakedSalmon1Item'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Baked Salmon 2',
+      'nameID': 'BakedSalmon2Item',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 4,
+      'labor': 50,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('RawFishItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PineappleItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Greens'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BakedSalmon2Item'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Cupcake',
+      'nameID': 'CupcakeItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 2,
+      'labor': 15,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fruit'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CupcakeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fish Cakes',
+      'nameID': 'FishCakesItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BreadcrumbsItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FishCakesItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Fruit Pie',
+      'nameID': 'FruitPieItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 4,
+      'labor': 30,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('Fruit'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FruitPieItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Nachos',
+      'nameID': 'NachosItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 6,
+      'labor': 50,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CornmealItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PreparedMeatItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SunCheeseItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('NachosItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pierogi',
+      'nameID': 'PierogiItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 3,
+      'labor': 35,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredSausageItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TaroRootItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PierogiItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pumpkin Pie',
+      'nameID': 'PumpkinPieItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 4,
+      'labor': 25,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PumpkinItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PumpkinPieItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Roasted Bass',
+      'nameID': 'RoastedBassItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('RoastedBassItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Waffles',
+      'nameID': 'WafflesItem',
+      'skill': getSkillByNameID('BakingSkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('BakeryOvenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FlourItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Fat'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HuckleberriesItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('WafflesItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Kitchen ========
+    ,
+    {
+      'name': 'Baked Cod',
+      'nameID': 'BakedCodItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 3,
+      'labor': 45,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BakedCodItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Grilled Shark Steak',
+      'nameID': 'GrilledSharkSteakItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 5,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SharkSteakItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GrilledSharkSteakItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Pan-Seared Shark Steak',
+      'nameID': 'PanSearedSharkSteakItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 3,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SharkSteakItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('InfusedFishOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PanSearedSharkSteakItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salmon Burger',
+      'nameID': 'SalmonBurgerItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 1,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SalmonPattyItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SalmonBurgerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Saldine Ochazuke',
+      'nameID': 'SaldineOchazukeItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 2,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FishFilletItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('KelpNoriItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BoiledRiceItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaldineOchazukeItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Shark Curry',
+      'nameID': 'SharkCurryItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 2,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SharkSteakItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('InfusedFishOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SharkCurryItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Tuna Nigiri',
+      'nameID': 'TunaNigiriItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 2,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TunaFilletItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('KelpNoriItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('TunaNigiriItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Urchin Sushi',
+      'nameID': 'UrchinSushiItem',
+      'skill': getSkillByNameID('AdvancedCookingSkill'),
+      'level': 2,
+      'labor': 65,
+      'craftingTable': getCraftingTableByNameID('KitchenObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('UrchinItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MarineOilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('KelpNoriItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeetGreensItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('UrchinSushiItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Cooking Table ========
+    ,{
+      'name': 'Cooking Table',
+      'nameID': 'CookingTableItem',
+      'skill': getSkillByNameID('CarpentrySkill'),
+      'level': 0,
+      'labor': 100,
+      'craftingTable': getCraftingTableByNameID('CarpentryTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('LumberItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('WoodBoard'),
+          'quantity': 10,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CookingTableItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Bacon Sandwitch',
+      'nameID': 'BaconSandwitchItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BreadItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('RawBaconItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BaconSandwitchItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mayonnaise',
+      'nameID': 'MayonnaiseItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('EggItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('OilItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredTaroItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MayonnaiseItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mimosa Salad',
+      'nameID': 'MimosaSaladItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 6,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PumpkinItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('EggItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PineappleItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MayonnaiseItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MimosaSaladItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Red Sauce',
+      'nameID': 'RedSauceItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('AgaveLeavesItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('RedSauceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad Bonaparte',
+      'nameID': 'SaladBonaparteItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('TallowItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredCamasBulbItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BoiledGrainsItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MayonnaiseItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladBonaparteItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad Health',
+      'nameID': 'SaladHealthItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CharredBeetItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredMeatItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('Greens'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('EggItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladHealthItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad Imperial',
+      'nameID': 'SaladImperialItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BoiledGrainsItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredFishItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FiddleheadsItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('MayonnaiseItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladImperialItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad Student',
+      'nameID': 'SaladStudentItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 3,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('FireweedShootsItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('FiddleheadsItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredBeansItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredMushroomsItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladStudentItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad YIN-YANG',
+      'nameID': 'SaladYINYANGItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 2,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BoiledGrainsItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeansItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredMushroomsItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladYINYANGItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad with Mussels',
+      'nameID': 'SaladwithMusselsItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 5,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('ClamItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredMushroomsItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BoiledGrainsItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladwithMusselsItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Salad with sea urchin',
+      'nameID': 'SaladwithseaurchinItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 4,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('UrchinItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('KelpItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredMushroomsItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CornItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SaladwithseaurchinItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Sandwitch with bean paste and tomato',
+      'nameID': 'SandwitchwithbeanpasteandtomatoItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 5,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BreadItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BeanPasteItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('TomatoItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SandwitchwithbeanpasteandtomatoItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Sandwitch with bean paste and tomato',
+      'nameID': 'SeafoodSandwitchItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 5,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('BreadItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ClamItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('UrchinItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SeafoodSandwitchItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Seafood salad',
+      'nameID': 'SeafoodsaladItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 2,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('KelpItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('UrchinItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ClamItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('EggItem'),
+          'quantity': 1,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SeafoodsaladItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'White Sauce',
+      'nameID': 'WhiteSauceItem',
+      'skill': getSkillByNameID('CookingSkill'),
+      'level': 1,
+      'labor': 10,
+      'craftingTable': getCraftingTableByNameID('CookingTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('MayonnaiseItem'),
+          'quantity': 1,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('KelpItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CharredFireweedShootsItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('WhiteSauceItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== 기계공 작업대 ========
+    ,
+    {
+      'name': '20ft Shipping Container',
+      'nameID': '20ftShippingContainerItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 3,
+      'labor': 250,
+      'craftingTable': getCraftingTableByNameID('MachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronPlateItem'),
+          'quantity': 100,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ScrewsItem'),
+          'quantity': 50,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 30,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('20ftShippingContainerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': '40ft Shipping Container',
+      'nameID': '40ftShippingContainerItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 3,
+      'labor': 250,
+      'craftingTable': getCraftingTableByNameID('MachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronPlateItem'),
+          'quantity': 200,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ScrewsItem'),
+          'quantity': 100,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 60,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('40ftShippingContainerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Bicycle',
+      'nameID': 'BicycleItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 1,
+      'labor': 500,
+      'craftingTable': getCraftingTableByNameID('MachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('ClothItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronWheelItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BicycleItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mechanical Steam Generator',
+      'nameID': 'MechanicalSteamGeneratorItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 1,
+      'labor': 750,
+      'craftingTable': getCraftingTableByNameID('MachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('PistonItem'),
+          'quantity': 12,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ScrewsItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronPlateItem'),
+          'quantity': 24,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BoilerItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronGearItem'),
+          'quantity': 16,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MechanicalSteamGeneratorItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mechanical Transmission Pole',
+      'nameID': 'MechanicalTransmissionPoleItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 4,
+      'labor': 400,
+      'craftingTable': getCraftingTableByNameID('MachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('NailItem'),
+          'quantity': 16,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronGearItem'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('HewnLog'),
+          'quantity': 8,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MechanicalTransmissionPoleItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== 전동식 기계 정비공 작업대 ========
+    ,
+    {
+      'name': 'Graphene',
+      'nameID': 'GrapheneItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 4,
+      'labor': 150,
+      'craftingTable': getCraftingTableByNameID('ElectricMachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SugarItem'),
+          'quantity': 2,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GrapheneItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Underground Electric Power',
+      'nameID': 'UndergroundElectricPowerItem',
+      'skill': getSkillByNameID('ElectronicsSkill'),
+      'level': 4,
+      'labor': 800,
+      'craftingTable': getCraftingTableByNameID('ElectricMachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelBarItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CopperWiringItem'),
+          'quantity': 12,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PlasticItem'),
+          'quantity': 14,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('UndergroundElectricPowerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Underground Mechanical Power',
+      'nameID': 'UndergroundMechanicalPowerItem',
+      'skill': getSkillByNameID('ElectronicsSkill'),
+      'level': 4,
+      'labor': 800,
+      'craftingTable': getCraftingTableByNameID('ElectricMachinistTableObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelBarItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronGearItem'),
+          'quantity': 12,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PlasticItem'),
+          'quantity': 14,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('UndergroundMechanicalPowerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== Mixer ========
+    ,
+    {
+      'name': 'Mixer',
+      'nameID': 'MixerItem',
+      'skill': getSkillByNameID('MechanicsSkill'),
+      'level': 4,
+      'labor': 600,
+      'craftingTable': getCraftingTableByNameID('AssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PistonItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 25,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MixerItem'),
+          'quantity': 100,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mixed Asphalt Concrete',
+      'nameID': 'MixedAsphaltConcreteItem',
+      'skill': getSkillByNameID('BasicEngineeringSkill'),
+      'level': 1,
+      'labor': 1500,
+      'craftingTable': getCraftingTableByNameID('MixerObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('CementItem'),
+          'quantity': 50,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SandItem'),
+          'quantity': 100,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CrushedRock'),
+          'quantity': 250,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('MixedAsphaltConcreteItem'),
+          'quantity': 100,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Mixed Stone Road',
+      'nameID': 'MixedStoneRoadItem',
+      'skill': getSkillByNameID('BasicEngineeringSkill'),
+      'level': 1,
+      'labor': 1500,
+      'craftingTable': getCraftingTableByNameID('MixerObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('MortarItem'),
+          'quantity': 300,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CrushedRock'),
+          'quantity': 200,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('StoneRoadItem'),
+          'quantity': 100,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    /* ======== Sample ========
+    ,
+    {
+      'name': '',
+      'nameID': 'Item',
+      'skill': getSkillByNameID('MixologySkill'),
+      'level': ,
+      'labor': ,
+      'craftingTable': getCraftingTableByNameID('BlenderObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID(''),
+          'quantity': ,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID(''),
+          'quantity': ,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID(''),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    */
   ];
