@@ -25012,7 +25012,7 @@ export let standardRecipes: Recipe[] =
       ],
       'outputs': [
         {
-          'item': getItemByNameID('MixedAsphaltConcreteItem'),
+          'item': getItemByNameID('AsphaltConcreteItem'),
           'quantity': 100,
           'reducible': false,
           'primary': true
