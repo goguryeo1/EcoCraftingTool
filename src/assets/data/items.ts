@@ -8724,6 +8724,80 @@ export let items: Item[] =
       'nameID': 'MixerItem',
       'tag': false
     }
+    // ======== 조립 라인 ========
+    ,
+    {
+      'name': 'Elevator Doors',
+      'nameID': 'ElevatorDoorsItem',
+      'tag': false
+    }
+    // ======== 자동화 조립 라인 ========
+    ,
+    {
+      'name': 'Air Filter',
+      'nameID': 'AirFilterItem',
+      'tag': false
+    },
+    {
+      'name': 'Big Car',
+      'nameID': 'BigCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Car',
+      'nameID': 'CarItem',
+      'tag': false
+    },
+    {
+      'name': 'Deco Outdoor Lamp',
+      'nameID': 'DecoOutdoorLampItem',
+      'tag': false
+    },
+    {
+      'name': 'Food Assembly Line',
+      'nameID': 'FoodAssemblyLineItem',
+      'tag': false
+    },
+    {
+      'name': 'Graphene Filter',
+      'nameID': 'GrapheneFilterItem',
+      'tag': false
+    },
+    {
+      'name': 'Logistics Trailer',
+      'nameID': 'LogisticsTrailerItem',
+      'tag': false
+    },
+    {
+      'name': 'Outdoor Lamp',
+      'nameID': 'OutdoorLampItem',
+      'tag': false
+    },
+    {
+      'name': 'Police Car',
+      'nameID': 'PoliceCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Prime Mover',
+      'nameID': 'PrimeMoverItem',
+      'tag': false
+    },
+    {
+      'name': 'Super Car',
+      'nameID': 'SuperCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Wagon',
+      'nameID': 'WagonItem',
+      'tag': false
+    },
+    {
+      'name': 'Water Turbine',
+      'nameID': 'WaterTurbineItem',
+      'tag': false
+    }
     /* ======== Sample ========
     ,
     {

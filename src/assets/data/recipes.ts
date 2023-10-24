@@ -25048,6 +25048,631 @@ export let standardRecipes: Recipe[] =
         }
       ]
     }
+    // ======== 조립 라인 ========
+    ,
+    {
+      'name': 'Elevator Doors',
+      'nameID': 'ElevatorDoorsItem',
+      'skill': getSkillByNameID('ElectronicsSkill'),
+      'level': 2,
+      'labor': 250,
+      'craftingTable': getCraftingTableByNameID('AssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 40,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ScrewsItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BasicCircuitItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('ServoItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CopperWiringItem'),
+          'quantity': 40,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('ElevatorDoorsItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
+    // ======== 자동화 조립 라인 ========
+    ,
+    {
+      'name': 'Air Filter',
+      'nameID': 'AirFilterItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 6,
+      'labor': 700,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelBarItem'),
+          'quantity': 24,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('AdvancedCircuitItem'),
+          'quantity': 3,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('AirFilterItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Big Car',
+      'nameID': 'BigCarItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 6,
+      'labor': 700,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 4,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('BigCarItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Car',
+      'nameID': 'CarItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 6,
+      'labor': 700,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 4,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('CarItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Deco Outdoor Lamp',
+      'nameID': 'DecoOutdoorLampItem',
+      'skill': getSkillByNameID('ElectronicsSkill'),
+      'level': 1,
+      'labor': 200,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelBarItem'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('GlassItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CopperWiringItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('LightBulbItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('DecoOutdoorLampItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Food Assembly Line',
+      'nameID': 'FoodAssemblyLineItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 1,
+      'labor': 1000,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('BasicCircuitItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('FoodAssemblyLineItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Graphene Filter',
+      'nameID': 'GrapheneFilterItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 5,
+      'labor': 250,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GrapheneItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 2,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelBarItem'),
+          'quantity': 4,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('GrapheneFilterItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Logistics Trailer',
+      'nameID': 'LogisticsTrailerItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 7,
+      'labor': 2000,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 120,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('RivetItem'),
+          'quantity': 80,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 8,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 3,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('LogisticsTrailerItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Outdoor Lamp',
+      'nameID': 'OutdoorLampItem',
+      'skill': getSkillByNameID('ElectronicsSkill'),
+      'level': 1,
+      'labor': 200,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('IronBarItem'),
+          'quantity': 8,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('PlasticItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CopperWiringItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('LightBulbItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('OutdoorLampItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Police Car',
+      'nameID': 'PoliceCarItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 6,
+      'labor': 2000,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 4,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 5,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 4,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PoliceCarItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Prime Mover',
+      'nameID': 'PrimeMoverItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 7,
+      'labor': 5000,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 80,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 60,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('AdvancedCombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 10,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('PrimeMoverItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Super Car',
+      'nameID': 'SuperCarItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 4,
+      'labor': 2500,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 6,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 10,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('AdvancedCombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 4,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('SuperCarItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Wagon',
+      'nameID': 'WagonItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 2,
+      'labor': 1500,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('GearboxItem'),
+          'quantity': 3,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('NylonFabricItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('CombustionEngineItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RubberWheelItem'),
+          'quantity': 4,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('RadiatorItem'),
+          'quantity': 1,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 1,
+          'reducible': false
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('WagonItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    },
+    {
+      'name': 'Water Turbine',
+      'nameID': 'WaterTurbineItem',
+      'skill': getSkillByNameID('IndustrySkill'),
+      'level': 2,
+      'labor': 1500,
+      'craftingTable': getCraftingTableByNameID('RoboticAssemblyLineObject'),
+      'hidden': false,
+      'ingredients': [
+        {
+          'item': getItemByNameID('SteelPlateItem'),
+          'quantity': 30,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelGearItem'),
+          'quantity': 20,
+          'reducible': true
+        },
+        {
+          'item': getItemByNameID('SteelAxleItem'),
+          'quantity': 2,
+          'reducible': false
+        },
+        {
+          'item': getItemByNameID('Lumber'),
+          'quantity': 15,
+          'reducible': true
+        }
+      ],
+      'outputs': [
+        {
+          'item': getItemByNameID('WaterTurbineItem'),
+          'quantity': 1,
+          'reducible': false,
+          'primary': true
+        }
+      ]
+    }
     /* ======== Sample ========
     ,
     {
