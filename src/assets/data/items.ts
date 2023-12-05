@@ -1313,7 +1313,7 @@ export let items: Item[] =
       'yPos': 31
     },
     {
-      'name': 'C O2 Canister',
+      'name': 'CO2 Canister',
       'nameID': 'CO2CanisterItem',
       'tag': false,
       'imageFile': 'UI_Icons_01.png',
@@ -8107,4 +8107,821 @@ export let items: Item[] =
       'xPos': 11,
       'yPos': 0
     }
+    //======== Mod Added ========//
+    ,
+    {
+      'name': 'Blender',
+      'nameID': 'BlenderItem',
+      'tag': false
+    },
+    {
+      'name': 'Almond Milk',
+      'nameID': 'AlmondMilkItem',
+      'tag': false
+    },
+    {
+      'name': 'Beet Juice',
+      'nameID': 'BeetJuiceItem',
+      'tag': false
+    },
+    {
+      'name': 'Coffee Powder',
+      'nameID': 'CoffeePowderItem',
+      'tag': false
+    },
+    {
+      'name': 'Corn Milk',
+      'nameID': 'CornMilkItem',
+      'tag': false
+    },
+    {
+      'name': 'Giant Cactus Fruit Paste',
+      'nameID': 'GiantCactusFruitPasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Granulated Coffee',
+      'nameID': 'GranulatedCoffeeItem',
+      'tag': false
+    },
+    {
+      'name': 'Huckleberry Paste',
+      'nameID': 'HuckleberryPasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Papaya Paste',
+      'nameID': 'PapayaPasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Pineapple Juice',
+      'nameID': 'PineappleJuiceItem',
+      'tag': false
+    },
+    {
+      'name': 'Pineapple Paste',
+      'nameID': 'PineapplePasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Prickly Pear Paste',
+      'nameID': 'PricklyPearPasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Pumpkin Juice',
+      'nameID': 'PumpkinJuiceItem',
+      'tag': false
+    },
+    {
+      'name': 'Pumpkin Paste',
+      'nameID': 'PumpkinPasteItem',
+      'tag': false
+    },
+    {
+      'name': 'Soy Milk',
+      'nameID': 'SoyMilkItem',
+      'tag': false
+    },
+    {
+      'name': 'Teabag',
+      'nameID': 'TeabagItem',
+      'tag': false
+    },
+    {
+      'name': 'Tomato Juice',
+      'nameID': 'TomatoJuiceItem',
+      'tag': false
+    },
+    {
+      'name': 'Tree Sap Juice',
+      'nameID': 'TreeSapJuiceItem',
+      'tag': false
+    },
+    {
+      'name': 'Egg',
+      'nameID': 'EggItem',
+      'tag': false
+    },
+    {
+      'name': 'Drinks Machine',
+      'nameID': 'DrinksMachineItem',
+      'tag': false
+    },
+    {
+      'name': 'Berry Burst',
+      'nameID': 'BerryBurstItem',
+      'tag': false
+    },
+    {
+      'name': 'Breakfast On The Go',
+      'nameID': 'BreakfastOnTheGoItem',
+      'tag': false
+    },
+    {
+      'name': 'Bubble Tea',
+      'nameID': 'BubbleTeaItem',
+      'tag': false
+    },
+    {
+      'name': 'Cappuccino 1',
+      'nameID': 'Cappuccino1Item',
+      'tag': false
+    },
+    {
+      'name': 'Coffee',
+      'nameID': 'CoffeeItem',
+      'tag': false
+    },
+    {
+      'name': 'Corn Supreme',
+      'nameID': 'CornSupremeItem',
+      'tag': false
+    },
+    {
+      'name': 'Espresso Shot',
+      'nameID': 'EspressoShotItem',
+      'tag': false
+    },
+    {
+      'name': 'Green Goddess',
+      'nameID': 'GreenGoddessItem',
+      'tag': false
+    },
+    {
+      'name': 'Herbal Tea',
+      'nameID': 'HerbalTeaItem',
+      'tag': false
+    },
+    {
+      'name': 'Huckleberry Crush',
+      'nameID': 'HuckleberryCrushItem',
+      'tag': false
+    },
+    {
+      'name': 'Latte',
+      'nameID': 'LatteItem',
+      'tag': false
+    },
+    {
+      'name': 'Mixed Fruit',
+      'nameID': 'MixedFruitItem',
+      'tag': false
+    },
+    {
+      'name': 'Mixology Advanced Upgrade',
+      'nameID': 'MixologyAdvancedUpgradeItem',
+      'tag': false
+    },
+    {
+      'name': 'Mocha',
+      'nameID': 'MochaItem',
+      'tag': false
+    },
+    {
+      'name': 'Papaya Paradise',
+      'nameID': 'PapayaParadiseItem',
+      'tag': false
+    },
+    {
+      'name': 'Spring Light Tea',
+      'nameID': 'SpringLightTeaItem',
+      'tag': false
+    },
+    {
+      'name': 'Taro Milk Tea',
+      'nameID': 'TaroMilkTeaItem',
+      'tag': false
+    },
+    {
+      'name': 'Thai Milk Tea',
+      'nameID': 'ThaiMilkTeaItem',
+      'tag': false
+    }
+    // ======== Fishing ========
+    ,
+    {
+      'name': 'Bass Fillet',
+      'nameID': 'BassFilletItem',
+      'tag': false
+    },
+    {
+      'name': 'Breadcrumbs',
+      'nameID': 'BreadcrumbsItem',
+      'tag': false
+    },
+    {
+      'name': 'Can Of Tuna',
+      'nameID': 'CanOfTunaItem',
+      'tag': false
+    },
+    {
+      'name': 'Crab Meat',
+      'nameID': 'CrabMeatItem',
+      'tag': false
+    },
+    {
+      'name': 'Crab Sticks',
+      'nameID': 'CrabSticksItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Fillet',
+      'nameID': 'FishFilletItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Scraps',
+      'nameID': 'FishScrapsItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Stick',
+      'nameID': 'FishStickItem',
+      'tag': false
+    },
+    {
+      'name': 'Salmon Fillet',
+      'nameID': 'SalmonFilletItem',
+      'tag': false
+    },
+    {
+      'name': 'Salmon Patty',
+      'nameID': 'SalmonPattyItem',
+      'tag': false
+    },
+    {
+      'name': 'Shark Steak',
+      'nameID': 'SharkSteakItem',
+      'tag': false
+    },
+    {
+      'name': 'Tinned Saldines',
+      'nameID': 'TinnedSaldinesItem',
+      'tag': false
+    },
+    {
+      'name': 'Tuna Fillet',
+      'nameID': 'TunaFilletItem',
+      'tag': false
+    },
+    // ======== Campfire ========
+    {
+      'name': 'Bass Stew',
+      'nameID': 'BassStewItem',
+      'tag': false
+    },
+    {
+      'name': 'Charred Crab Sticks',
+      'nameID': 'CharredCrabSticksItem',
+      'tag': false
+    },
+    {
+      'name': 'Fried Salmon',
+      'nameID': 'FriedSalmonItem',
+      'tag': false
+    },
+    {
+      'name': 'Urchin Soup',
+      'nameID': 'UrchinSoupItem',
+      'tag': false
+    },
+    // ======== Cast Iron Stove ========
+    {
+      'name': 'Beer',
+      'nameID': 'BeerItem',
+      'tag': false
+    },
+    {
+      'name': 'Dango',
+      'nameID': 'DangoItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Fingers',
+      'nameID': 'FishFingersItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Taco 1',
+      'nameID': 'FishTaco1Item',
+      'tag': false
+    },
+    {
+      'name': 'Fish Taco 2',
+      'nameID': 'FishTaco2Item',
+      'tag': false
+    },
+    {
+      'name': 'Fried Oysters',
+      'nameID': 'FriedOystersItem',
+      'tag': false
+    },
+    {
+      'name': 'Meaty Spaghetti',
+      'nameID': 'MeatySpaghettiItem',
+      'tag': false
+    },
+    {
+      'name': 'Pancakes',
+      'nameID': 'PancakesItem',
+      'tag': false
+    },
+    {
+      'name': 'Popcorn',
+      'nameID': 'PopcornItem',
+      'tag': false
+    },
+    {
+      'name': 'Pupusas',
+      'nameID': 'PupusasItem',
+      'tag': false
+    },
+    {
+      'name': 'Shrimp Tempura',
+      'nameID': 'ShrimpTempuraItem',
+      'tag': false
+    },
+    {
+      'name': 'Spaghetti',
+      'nameID': 'SpaghettiItem',
+      'tag': false
+    },
+    {
+      'name': 'Wine',
+      'nameID': 'WineItem',
+      'tag': false
+    }
+    // ======== Cooking Table ========
+    ,
+    {
+      'name': 'Cooking Table',
+      'nameID': 'CookingTableItem',
+      'tag': false
+    },
+    {
+      'name': 'Bacon Sandwitch',
+      'nameID': 'BaconSandwitchItem',
+      'tag': false
+    },
+    {
+      'name': 'Mayonnaise',
+      'nameID': 'MayonnaiseItem',
+      'tag': false
+    },
+    {
+      'name': 'Mimosa Salad',
+      'nameID': 'MimosaSaladItem',
+      'tag': false
+    },
+    {
+      'name': 'Red Sauce',
+      'nameID': 'RedSauceItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad Bonaparte',
+      'nameID': 'SaladBonaparteItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad Health',
+      'nameID': 'SaladHealthItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad Imperial',
+      'nameID': 'SaladImperialItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad Student',
+      'nameID': 'SaladStudentItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad YIN-YANG',
+      'nameID': 'SaladYINYANGItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad with Mussels',
+      'nameID': 'SaladwithMusselsItem',
+      'tag': false
+    },
+    {
+      'name': 'Salad with sea urchin',
+      'nameID': 'SaladwithseaurchinItem',
+      'tag': false
+    },
+    {
+      'name': 'Sandwitch with bean paste and tomato',
+      'nameID': 'SandwitchwithbeanpasteandtomatoItem',
+      'tag': false
+    },
+    {
+      'name': 'Seafood Sandwitch',
+      'nameID': 'SeafoodSandwitchItem',
+      'tag': false
+    },
+    {
+      'name': 'Seafood salad',
+      'nameID': 'SeafoodsaladItem',
+      'tag': false
+    },
+    {
+      'name': 'White Sauce',
+      'nameID': 'WhiteSauceItem',
+      'tag': false
+    }
+    // ======== Fish Farm ========
+    ,
+    {
+      'name': 'Caviar',
+      'nameID': 'CaviarItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Egg',
+      'nameID': 'FishEggItem',
+      'tag': false
+    },
+    {
+      'name': 'Fishing Unplugged Upgrade',
+      'nameID': 'FishingUnpluggedUpgradeItem',
+      'tag': false
+    },
+    {
+      'name': 'Infused Fish Oil',
+      'nameID': 'InfusedFishOilItem',
+      'tag': false
+    },
+    {
+      'name': 'Kelp Nori',
+      'nameID': 'KelpNoriItem',
+      'tag': false
+    },
+    {
+      'name': 'Marine Oil',
+      'nameID': 'MarineOilItem',
+      'tag': false
+    },
+    {
+      'name': 'Omega-3 Capsule',
+      'nameID': 'OmegaCapsuleItem',
+      'tag': false
+    },
+    {
+      'name': 'Milk',
+      'nameID': 'MilkItem',
+      'tag': false
+    },
+    // ======== Bakery Oven ========
+    {
+      'name': 'BBQ Rib',
+      'nameID': 'BBQRibItem',
+      'tag': false
+    },
+    {
+      'name': 'Baked Salmon 1',
+      'nameID': 'BakedSalmon1Item',
+      'tag': false
+    },
+    {
+      'name': 'Baked Salmon 2',
+      'nameID': 'BakedSalmon2Item',
+      'tag': false
+    },
+    {
+      'name': 'Cupcake',
+      'nameID': 'CupcakeItem',
+      'tag': false
+    },
+    {
+      'name': 'Fish Cakes',
+      'nameID': 'FishCakesItem',
+      'tag': false
+    },
+    {
+      'name': 'Fruit Pie',
+      'nameID': 'FruitPieItem',
+      'tag': false
+    },
+    {
+      'name': 'Nachos',
+      'nameID': 'NachosItem',
+      'tag': false
+    },
+    {
+      'name': 'Pierogi',
+      'nameID': 'PierogiItem',
+      'tag': false
+    },
+    {
+      'name': 'Pumpkin Pie',
+      'nameID': 'PumpkinPieItem',
+      'tag': false
+    },
+    {
+      'name': 'Roasted Bass',
+      'nameID': 'RoastedBassItem',
+      'tag': false
+    },
+    {
+      'name': 'Waffles',
+      'nameID': 'WafflesItem',
+      'tag': false
+    }
+    // ======== Kitchen ========
+    ,
+    {
+      'name': 'Baked Cod',
+      'nameID': 'BakedCodItem',
+      'tag': false
+    },
+    {
+      'name': 'Grilled Shark Steak',
+      'nameID': 'GrilledSharkSteakItem',
+      'tag': false
+    },
+    {
+      'name': 'Pan-Seared Shark Steak',
+      'nameID': 'PanSearedSharkSteakItem',
+      'tag': false
+    },
+    {
+      'name': 'Salmon Burger',
+      'nameID': 'SalmonBurgerItem',
+      'tag': false
+    },
+    {
+      'name': 'Saldine Ochazuke',
+      'nameID': 'SaldineOchazukeItem',
+      'tag': false
+    },
+    {
+      'name': 'Shark Curry',
+      'nameID': 'SharkCurryItem',
+      'tag': false
+    },
+    {
+      'name': 'Tuna Nigiri',
+      'nameID': 'TunaNigiriItem',
+      'tag': false
+    },
+    {
+      'name': 'Urchin Sushi',
+      'nameID': 'UrchinSushiItem',
+      'tag': false
+    }
+    // ======== 화덕 ========
+    ,
+    {
+      'name': 'Fish Curry and Rice',
+      'nameID': 'FishCurryandRiceItem',
+      'tag': false
+    }
+    ,
+    {
+      'name': 'Fish Egg Pie',
+      'nameID': 'FishEggPieItem',
+      'tag': false
+    }
+    ,
+    {
+      'name': 'Seafood Pie',
+      'nameID': 'SeafoodPieItem',
+      'tag': false
+    }
+    // ======== 기계공 작업대 ========
+    ,
+    {
+      'name': '20ft Shipping Container',
+      'nameID': '20ftShippingContainerItem',
+      'tag': false
+    },
+    {
+      'name': '40ft Shipping Container',
+      'nameID': '40ftShippingContainerItem',
+      'tag': false
+    },
+    {
+      'name': 'Bicycle',
+      'nameID': 'BicycleItem',
+      'tag': false
+    },
+    {
+      'name': 'Mechanical Steam Generator',
+      'nameID': 'MechanicalSteamGeneratorItem',
+      'tag': false
+    },
+    {
+      'name': 'Mechanical Transmission Pole',
+      'nameID': 'MechanicalTransmissionPoleItem',
+      'tag': false
+    }
+    // ======== 전동식 기계 정비공 작업대 ========
+    ,
+    {
+      'name': 'Graphene',
+      'nameID': 'GrapheneItem',
+      'tag': false
+    },
+    {
+      'name': 'Underground Electric Power',
+      'nameID': 'UndergroundElectricPowerItem',
+      'tag': false
+    },
+    {
+      'name': 'Underground Mechanical Power',
+      'nameID': 'UndergroundMechanicalPowerItem',
+      'tag': false
+    },
+    {
+      'name': 'Mixer',
+      'nameID': 'MixerItem',
+      'tag': false
+    }
+    // ======== 조립 라인 ========
+    ,
+    {
+      'name': 'Elevator Doors',
+      'nameID': 'ElevatorDoorsItem',
+      'tag': false
+    }
+    // ======== 자동화 조립 라인 ========
+    ,
+    {
+      'name': 'Air Filter',
+      'nameID': 'AirFilterItem',
+      'tag': false
+    },
+    {
+      'name': 'Big Car',
+      'nameID': 'BigCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Car',
+      'nameID': 'CarItem',
+      'tag': false
+    },
+    {
+      'name': 'Deco Outdoor Lamp',
+      'nameID': 'DecoOutdoorLampItem',
+      'tag': false
+    },
+    {
+      'name': 'Food Assembly Line',
+      'nameID': 'FoodAssemblyLineItem',
+      'tag': false
+    },
+    {
+      'name': 'Graphene Filter',
+      'nameID': 'GrapheneFilterItem',
+      'tag': false
+    },
+    {
+      'name': 'Logistics Trailer',
+      'nameID': 'LogisticsTrailerItem',
+      'tag': false
+    },
+    {
+      'name': 'Outdoor Lamp',
+      'nameID': 'OutdoorLampItem',
+      'tag': false
+    },
+    {
+      'name': 'Police Car',
+      'nameID': 'PoliceCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Prime Mover',
+      'nameID': 'PrimeMoverItem',
+      'tag': false
+    },
+    {
+      'name': 'Super Car',
+      'nameID': 'SuperCarItem',
+      'tag': false
+    },
+    {
+      'name': 'Wagon',
+      'nameID': 'WagonItem',
+      'tag': false
+    },
+    {
+      'name': 'Water Turbine',
+      'nameID': 'WaterTurbineItem',
+      'tag': false
+    }
+    // ======== Artistry ========
+    ,
+    {
+      'name': 'Dye Table',
+      'nameID': 'DyeTableItem',
+      'tag': false
+    },
+    {
+      'name': 'Wooden Bucket',
+      'nameID': 'WoodenBucketItem',
+      'tag': false
+    },
+    {
+      'name': 'Art Station',
+      'nameID': 'ArtStationItem',
+      'tag': false
+    }
+    // ======== Food Assembly Line ========
+    ,
+    {
+      'name': 'Coffee Bean',
+      'nameID': 'CoffeeBeanItem',
+      'tag': false
+    },
+    {
+      'name': 'Baked Coffee Beans',
+      'nameID': 'BakedCoffeeBeansItem',
+      'tag': false
+    },
+    {
+      'name': 'Berry Cake',
+      'nameID': 'BerryCakeItem',
+      'tag': false
+    },
+    {
+      'name': 'Caesar Salad',
+      'nameID': 'CaesarSaladItem',
+      'tag': false
+    },
+    {
+      'name': 'Caffeine',
+      'nameID': 'CaffeineItem',
+      'tag': false
+    },
+    {
+      'name': 'Cappuccino 2',
+      'nameID': 'Cappuccino2Item',
+      'tag': false
+    },
+    {
+      'name': 'Cookie IceCream',
+      'nameID': 'CookieIceCreamItem',
+      'tag': false
+    },
+    {
+      'name': 'Corned Beef',
+      'nameID': 'CornedBeefItem',
+      'tag': false
+    },
+    {
+      'name': 'Eco Cola',
+      'nameID': 'EcoColaItem',
+      'tag': false
+    },
+    {
+      'name': 'Espresso',
+      'nameID': 'EspressoItem',
+      'tag': false
+    },
+    {
+      'name': 'Hot Wings',
+      'nameID': 'HotWingsItem',
+      'tag': false
+    },
+    {
+      'name': 'Milk Chocolate',
+      'nameID': 'MilkChocolateItem',
+      'tag': false
+    },
+    {
+      'name': 'Papaya Smoothie',
+      'nameID': 'PapayaSmoothieItem',
+      'tag': false
+    },
+    {
+      'name': 'Pasta Snack Pot',
+      'nameID': 'PastaSnackPotItem',
+      'tag': false
+    },
+    {
+      'name': 'Potato Chips',
+      'nameID': 'PotatoChipsItem',
+      'tag': false
+    },
+    {
+      'name': 'Sopes',
+      'nameID': 'SopesItem',
+      'tag': false
+    }
+    /* ======== Sample ========
+    ,
+    {
+      'name': '',
+      'nameID': 'Item',
+      'tag': false
+    }
+    */
   ];

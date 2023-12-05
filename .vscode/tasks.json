@@ -1,0 +1,11 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ng build --prod",
+            "group": "build",
+            "detail": "ng build --prod",
+            "command": "ng build --prod"
+        }
+    ]
+}

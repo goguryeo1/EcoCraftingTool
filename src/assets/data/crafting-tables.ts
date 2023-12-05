@@ -479,4 +479,67 @@ export let craftingTables: CraftingTable[] =
       'xPos': 12,
       'yPos': 12
     }
+    //======== Mod Added ========//
+    ,
+    {
+      'name': 'Blender',
+      'nameID': 'BlenderObject',
+      'upgradeModuleType': 'AdvancedUpgrade',
+      'hidden': false
+    },
+    {
+      'name': 'Drinks Machine',
+      'nameID': 'DrinksMachineObject',
+      'upgradeModuleType': 'AdvancedUpgrade',
+      'hidden': false
+    },
+    {
+      'name': 'Cooking Table',
+      'nameID': 'CookingTableObject',
+      'upgradeModuleType': 'AdvancedUpgrade',
+      'hidden': false
+    },
+    {
+      'name': 'Fish Farm',
+      'nameID': 'FishFarmObject',
+      'upgradeModuleType': 'BasicUpgrade',
+      'hidden': false
+    },
+    {
+      'name': 'Mixer',
+      'nameID': 'MixerObject',
+      'upgradeModuleType': 'AdvancedUpgrade',
+      'hidden': false
+    }
+    // ======== Artistry ========
+    ,
+    {
+      'name': 'Dye Table',
+      'nameID': 'DyeTableObject',
+      'upgradeModuleType': 'BasicUpgrade',
+      'hidden': false
+    },
+    {
+      'name': 'Art Station',
+      'nameID': 'ArtStationObject',
+      'upgradeModuleType': 'BasicUpgrade',
+      'hidden': false
+    }
+    // ======== Food Assembly Line ========
+    ,
+    {
+      'name': 'Food Assembly Line',
+      'nameID': 'FoodAssemblyLineObject',
+      'upgradeModuleType': 'ModernUpgrade',
+      'hidden': false
+    }
+    /* ======== Sample ========
+    ,
+    {
+      'name': '',
+      'nameID': 'Object',
+      'upgradeModuleType': '',
+      'hidden': false
+    }
+    */
   ];
